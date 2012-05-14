@@ -1,0 +1,33 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+.shadow-left {
+    margin-left: -13px;
+    padding-left: 13px;
+}
+
+.shadow-right {
+    margin-right: -13px;
+    padding-right: 13px;
+}
+
+#section-header .shadow-left { background: url("../images/header-bl.png") no-repeat scroll 0 100% transparent; }
+#section-header .shadow-right { background: url("../images/header-br.png") no-repeat scroll 100% 100% transparent; }
+
+#zone-menu-wrapper .sf-menu li.active-trail a, #zone-menu-wrapper .sf-menu li a:hover, #zone-menu-wrapper .sf-menu li a.active { 
+background: url("../images/menutab-active.png") repeat-x scroll 0 0 transparent; 
+display: block;
+    float: none;
+    text-decoration: none;
+    width: auto; }
+#zone-postscript-wrapper .shadow-left {
+    background: url("../images/header-bl.png") no-repeat scroll 0 100% transparent;
+}
+
+#zone-postscript-wrapper .shadow-right {
+    background: url("../images/header-br.png") no-repeat scroll 100% 100% transparent; } 
+#zone-footer-wrapper .shadow-left { background: url("../images/nav-l.png") repeat-y scroll 0 100% transparent; }
+#zone-footer-wrapper .shadow-right { background: url("../images/nav-r.png") repeat-y scroll 100% 100% transparent; }
+
+.node.view-mode-full>.group-right, #region-sidebar-second { padding-bottom: 10px; background: url('../images/aside-bottom.png') center bottom no-repeat; display: block; }
+.node.view-mode-full>.group-right>.field-group-format, #region-sidebar-second .region-inner { background: url('../images/aside-bg.png') center top repeat-y; padding: 9px 9px 19px; border: 1px solid #ccc; border-bottom: none; }
+
+#block-block-13 { display: block; }

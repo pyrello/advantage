@@ -1,0 +1,40 @@
+#page-wrapper { height: 100%; min-height: 100%; }
+#zone-content { width: auto; padding: 0 !important; }
+.view-document-fields .views-field {
+margin-right: 20px;
+float: left;
+color: white;
+line-height: 25px;
+}
+
+.view-document-fields .views-label {
+font-weight: bold;
+}
+
+.view-document-fields .field-content {
+display: inline;
+}
+
+.view-document-fields .views-field-field-document-city { clear: left; }
+
+.view-document-fields .view-header { float: left; margin-right: 10px; }
+.view-document-fields .view-content { float: left; margin-right: 10px; }
+
+#zone-menu .grid-12 {
+margin-left: 10px !important;
+margin-right: 10px !important;
+}
+
+#zone-content .grid-12 {
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+
+.field-name-field-document-pdf { display: none; }
+#pdfviewerframe {
+	overflow: auto;
+	width: 100%;
+}
+.block-document-paging-block { float: right; color: #fff; line-height: 50px; }
+.block-document-fields-block { float: left; color: #fff; }
+.doc-back { display: block; float: left; height: 28px; width: 71px; background: url(../images/back.png) no-repeat left top; text-indent: -9999px; margin: 11px 0; }

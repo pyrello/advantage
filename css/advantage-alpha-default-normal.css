@@ -1,0 +1,38 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+#zone-menu { background: url("../images/nav-overlay3.png") no-repeat scroll 50% 0 transparent; }
+#zone-menu-wrapper { background: url("../images/nav-overlay.png") repeat-x scroll 50% 100% #5C5A98; }
+
+#zone-menu-wrapper .shadow-left {
+    background: url("../images/nav-l.png") repeat-y scroll 0 0 transparent;
+}
+
+#zone-menu-wrapper .shadow-right {
+    background: url("../images/nav-r.png") repeat-y scroll 100% 0 transparent; }
+#zone-menu-wrapper .sf-menu li { background: 
+url("../images/menutab-r.png") 
+no-repeat scroll 100% 0 transparent; float: left;
+    margin: 0 -5px 0 0; height: auto;
+    list-style: none outside none;
+    padding: 0;
+    position: relative;  }
+
+#zone-menu-wrapper .sf-menu li a { border: none; }
+	
+#zone-menu-wrapper .sf-menu li a { cursor: pointer;
+color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 0 4px 0 0;
+    outline: medium none;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 100;
+		display: block;
+    padding: .5em 1em;
+    width: auto;
+		text-decoration: none;
+}
